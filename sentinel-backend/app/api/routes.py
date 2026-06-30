@@ -2,6 +2,10 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models.schema import NewsArticle, DistressSignal, RemittanceRecord, WelfareScore
+from app.services.classifier import classify_text
+from pydantic import BaseModel
+from app.scrapers.news import scrape_feeds, scrape_historical, scrape_reddit
+
 
 router = APIRouter()
 
@@ -53,3 +57,52 @@ async def get_country_remittance(country: str, db: Session = Depends(get_db)):
     ).order_by(RemittanceRecord.recorded_at.desc()).all()
     
     return records
+
+@router.post("/scrape/news")
+async def trigger_news_scrape(db: Session = Depends(get_db)):
+    count = scrape_feeds(db)
+    return {"status": "complete", "new_articles": count}
+
+@router.post("/scrape/historical")
+async def trigger_historical_scrape(db: Session = Depends(get_db)):
+    count = scrape_historical(db)
+    return {"status": "complete", "new_articles": count}
+
+class ClassifyRequest(BaseModel):
+    text: str
+    country: str = "Unknown"
+    source: str = "manual"
+
+@router.post("/classify")
+async def classify_message(request: ClassifyRequest, db: Session = Depends(get_db)):
+    result = classify_text(request.text)
+    
+    if result["classification"] == "ERROR":
+        return result
+    
+    signal = DistressSignal(
+        raw_text=request.text,
+        classification=result["classification"],
+        confidence=result["confidence"],
+        signals_detected=", ".join(result.get("signals_detected", [])),
+        country=request.country,
+        source=request.source,
+    )
+
+    db.add(signal)
+    db.commit()
+    db.refresh(signal)
+    
+    return {
+        "id": signal.id,
+        "classification": result["classification"],
+        "confidence": result["confidence"],
+        "signals_detected": result.get("signals_detected", []),
+        "recommended_action": result.get("recommended_action", "")
+    }
+
+
+@router.post("/scrape/reddit")
+async def trigger_reddit_scrape(db: Session = Depends(get_db)):
+    count = scrape_reddit(db)
+    return {"status": "complete", "new_posts": count}
