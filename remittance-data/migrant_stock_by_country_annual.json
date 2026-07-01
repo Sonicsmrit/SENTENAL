@@ -1,0 +1,392 @@
+[
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "migrant_stock": 131830,
+    "period": "2021"
+  },
+  {
+    "country": "Austria",
+    "country_code": "AUT",
+    "migrant_stock": 835,
+    "period": "2021"
+  },
+  {
+    "country": "Bahrain",
+    "country_code": "BHR",
+    "migrant_stock": 2942,
+    "period": "2021"
+  },
+  {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "migrant_stock": 38301,
+    "period": "2021"
+  },
+  {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "migrant_stock": 4398,
+    "period": "2021"
+  },
+  {
+    "country": "Bhutan",
+    "country_code": "BTN",
+    "migrant_stock": 751,
+    "period": "2021"
+  },
+  {
+    "country": "Bolivia",
+    "country_code": "BOL",
+    "migrant_stock": 6,
+    "period": "2021"
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "migrant_stock": 63,
+    "period": "2021"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "country_code": "BRN",
+    "migrant_stock": 5822,
+    "period": "2021"
+  },
+  {
+    "country": "Bulgaria",
+    "country_code": "BGR",
+    "migrant_stock": 20,
+    "period": "2021"
+  },
+  {
+    "country": "Cambodia",
+    "country_code": "KHM",
+    "migrant_stock": 46,
+    "period": "2021"
+  },
+  {
+    "country": "Canada",
+    "country_code": "CAN",
+    "migrant_stock": 15495,
+    "period": "2021"
+  },
+  {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "migrant_stock": 9,
+    "period": "2021"
+  },
+  {
+    "country": "Cyprus",
+    "country_code": "CYP",
+    "migrant_stock": 54,
+    "period": "2021"
+  },
+  {
+    "country": "Czech Republic",
+    "country_code": "CZE",
+    "migrant_stock": 1102,
+    "period": "2021"
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "migrant_stock": 5009,
+    "period": "2021"
+  },
+  {
+    "country": "Estonia",
+    "country_code": "EST",
+    "migrant_stock": 181,
+    "period": "2021"
+  },
+  {
+    "country": "Faeroe Islands",
+    "country_code": "FRO",
+    "migrant_stock": 13,
+    "period": "2021"
+  },
+  {
+    "country": "Finland",
+    "country_code": "FIN",
+    "migrant_stock": 4300,
+    "period": "2021"
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "migrant_stock": 1512,
+    "period": "2021"
+  },
+  {
+    "country": "Georgia",
+    "country_code": "GEO",
+    "migrant_stock": 16,
+    "period": "2021"
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "migrant_stock": 8890,
+    "period": "2021"
+  },
+  {
+    "country": "Greece",
+    "country_code": "GRC",
+    "migrant_stock": 66,
+    "period": "2021"
+  },
+  {
+    "country": "Guinea",
+    "country_code": "GIN",
+    "migrant_stock": 22,
+    "period": "2021"
+  },
+  {
+    "country": "Hong Kong SAR, China",
+    "country_code": "HKG",
+    "migrant_stock": 9741,
+    "period": "2021"
+  },
+  {
+    "country": "Hungary",
+    "country_code": "HUN",
+    "migrant_stock": 114,
+    "period": "2021"
+  },
+  {
+    "country": "Iceland",
+    "country_code": "ISL",
+    "migrant_stock": 120,
+    "period": "2021"
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "migrant_stock": 733734,
+    "period": "2021"
+  },
+  {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "migrant_stock": 154,
+    "period": "2021"
+  },
+  {
+    "country": "Israel",
+    "country_code": "ISR",
+    "migrant_stock": 0,
+    "period": "2021"
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "migrant_stock": 2540,
+    "period": "2021"
+  },
+  {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "migrant_stock": 182,
+    "period": "2021"
+  },
+  {
+    "country": "Korea, Rep.",
+    "country_code": "KOR",
+    "migrant_stock": 40748,
+    "period": "2021"
+  },
+  {
+    "country": "Kuwait",
+    "country_code": "KWT",
+    "migrant_stock": 24607,
+    "period": "2021"
+  },
+  {
+    "country": "Latvia",
+    "country_code": "LVA",
+    "migrant_stock": 45,
+    "period": "2021"
+  },
+  {
+    "country": "Liechtenstein",
+    "country_code": "LIE",
+    "migrant_stock": 2,
+    "period": "2021"
+  },
+  {
+    "country": "Lithuania",
+    "country_code": "LTU",
+    "migrant_stock": 26,
+    "period": "2021"
+  },
+  {
+    "country": "Luxembourg",
+    "country_code": "LUX",
+    "migrant_stock": 390,
+    "period": "2021"
+  },
+  {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "migrant_stock": 585864,
+    "period": "2021"
+  },
+  {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "migrant_stock": 1994,
+    "period": "2021"
+  },
+  {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "migrant_stock": 3815,
+    "period": "2021"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "country_code": "MNP",
+    "migrant_stock": 124,
+    "period": "2021"
+  },
+  {
+    "country": "Norway",
+    "country_code": "NOR",
+    "migrant_stock": 2601,
+    "period": "2021"
+  },
+  {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "migrant_stock": 72,
+    "period": "2021"
+  },
+  {
+    "country": "Poland",
+    "country_code": "POL",
+    "migrant_stock": 71,
+    "period": "2021"
+  },
+  {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "migrant_stock": 6637,
+    "period": "2021"
+  },
+  {
+    "country": "Qatar",
+    "country_code": "QAT",
+    "migrant_stock": 253940,
+    "period": "2021"
+  },
+  {
+    "country": "Romania",
+    "country_code": "ROU",
+    "migrant_stock": 1410,
+    "period": "2021"
+  },
+  {
+    "country": "Russian Federation",
+    "country_code": "RUS",
+    "migrant_stock": 173,
+    "period": "2021"
+  },
+  {
+    "country": "Saudi Arabia",
+    "country_code": "SAU",
+    "migrant_stock": 503404,
+    "period": "2021"
+  },
+  {
+    "country": "Seychelles",
+    "country_code": "SYC",
+    "migrant_stock": 177,
+    "period": "2021"
+  },
+  {
+    "country": "Slovak Republic",
+    "country_code": "SVK",
+    "migrant_stock": 18,
+    "period": "2021"
+  },
+  {
+    "country": "Slovenia",
+    "country_code": "SVN",
+    "migrant_stock": 33,
+    "period": "2021"
+  },
+  {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "migrant_stock": 150,
+    "period": "2021"
+  },
+  {
+    "country": "Spain",
+    "country_code": "ESP",
+    "migrant_stock": 4232,
+    "period": "2021"
+  },
+  {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "migrant_stock": 343,
+    "period": "2021"
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "migrant_stock": 1389,
+    "period": "2021"
+  },
+  {
+    "country": "Switzerland",
+    "country_code": "CHE",
+    "migrant_stock": 1154,
+    "period": "2021"
+  },
+  {
+    "country": "Thailand",
+    "country_code": "THA",
+    "migrant_stock": 11618,
+    "period": "2021"
+  },
+  {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "migrant_stock": 1899,
+    "period": "2021"
+  },
+  {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "migrant_stock": 27886,
+    "period": "2021"
+  },
+  {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "migrant_stock": 66000,
+    "period": "2021"
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "migrant_stock": 176462,
+    "period": "2021"
+  },
+  {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "migrant_stock": 2440,
+    "period": "2021"
+  },
+  {
+    "country": "World",
+    "country_code": "WLD",
+    "migrant_stock": 2687992,
+    "period": "2021"
+  }
+]

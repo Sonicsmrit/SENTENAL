@@ -1,1 +1,8 @@
 *.env
+# Large remittance source files (not needed for git - data already extracted to JSON)
+remittance-data/nrb-annual-reports/
+remittance-data/nrb-quarterly-bulletin-*
+remittance-data/diaspora-data/
+remittance-data/ceslam-*
+remittance-data/knomad-bilateral/WB_KNOMAD_WIDEF.csv
+remittance-data/knomad-bilateral/*.xlsx

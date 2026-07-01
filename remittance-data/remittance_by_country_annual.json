@@ -1,0 +1,443 @@
+[
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "amount_usd_million": 466.58,
+    "amount_usd": 466576405,
+    "period": "2021"
+  },
+  {
+    "country": "Austria",
+    "country_code": "AUT",
+    "amount_usd_million": 3.01,
+    "amount_usd": 3014011,
+    "period": "2021"
+  },
+  {
+    "country": "Bahrain",
+    "country_code": "BHR",
+    "amount_usd_million": 9.39,
+    "amount_usd": 9386338,
+    "period": "2021"
+  },
+  {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "amount_usd_million": 82.18,
+    "amount_usd": 82180369,
+    "period": "2021"
+  },
+  {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "amount_usd_million": 15.98,
+    "amount_usd": 15983448,
+    "period": "2021"
+  },
+  {
+    "country": "Bhutan",
+    "country_code": "BTN",
+    "amount_usd_million": 1.72,
+    "amount_usd": 1723196,
+    "period": "2021"
+  },
+  {
+    "country": "Bolivia",
+    "country_code": "BOL",
+    "amount_usd_million": 0.01,
+    "amount_usd": 13369,
+    "period": "2021"
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "amount_usd_million": 0.16,
+    "amount_usd": 156134,
+    "period": "2021"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "country_code": "BRN",
+    "amount_usd_million": 22.21,
+    "amount_usd": 22206999,
+    "period": "2021"
+  },
+  {
+    "country": "Bulgaria",
+    "country_code": "BGR",
+    "amount_usd_million": 0.06,
+    "amount_usd": 55980,
+    "period": "2021"
+  },
+  {
+    "country": "Cambodia",
+    "country_code": "KHM",
+    "amount_usd_million": 0.09,
+    "amount_usd": 91707,
+    "period": "2021"
+  },
+  {
+    "country": "Canada",
+    "country_code": "CAN",
+    "amount_usd_million": 53.54,
+    "amount_usd": 53544810,
+    "period": "2021"
+  },
+  {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "amount_usd_million": 0.02,
+    "amount_usd": 24086,
+    "period": "2021"
+  },
+  {
+    "country": "Cyprus",
+    "country_code": "CYP",
+    "amount_usd_million": 0.17,
+    "amount_usd": 170492,
+    "period": "2021"
+  },
+  {
+    "country": "Czechia",
+    "country_code": "CZE",
+    "amount_usd_million": 3.57,
+    "amount_usd": 3566061,
+    "period": "2021"
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "amount_usd_million": 19.01,
+    "amount_usd": 19011856,
+    "period": "2021"
+  },
+  {
+    "country": "Estonia",
+    "country_code": "EST",
+    "amount_usd_million": 0.58,
+    "amount_usd": 581269,
+    "period": "2021"
+  },
+  {
+    "country": "Faroe Islands",
+    "country_code": "FRO",
+    "amount_usd_million": 0.03,
+    "amount_usd": 25660,
+    "period": "2021"
+  },
+  {
+    "country": "Finland",
+    "country_code": "FIN",
+    "amount_usd_million": 15.28,
+    "amount_usd": 15282906,
+    "period": "2021"
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "amount_usd_million": 5.23,
+    "amount_usd": 5230564,
+    "period": "2021"
+  },
+  {
+    "country": "Georgia",
+    "country_code": "GEO",
+    "amount_usd_million": 0.04,
+    "amount_usd": 39925,
+    "period": "2021"
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "amount_usd_million": 32.35,
+    "amount_usd": 32352633,
+    "period": "2021"
+  },
+  {
+    "country": "Greece",
+    "country_code": "GRC",
+    "amount_usd_million": 0.19,
+    "amount_usd": 194619,
+    "period": "2021"
+  },
+  {
+    "country": "Guinea",
+    "country_code": "GIN",
+    "amount_usd_million": 0.04,
+    "amount_usd": 43425,
+    "period": "2021"
+  },
+  {
+    "country": "Hong Kong SAR, China",
+    "country_code": "HKG",
+    "amount_usd_million": 37.81,
+    "amount_usd": 37814074,
+    "period": "2021"
+  },
+  {
+    "country": "Hungary",
+    "country_code": "HUN",
+    "amount_usd_million": 0.35,
+    "amount_usd": 348917,
+    "period": "2021"
+  },
+  {
+    "country": "Iceland",
+    "country_code": "ISL",
+    "amount_usd_million": 0.43,
+    "amount_usd": 426445,
+    "period": "2021"
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "amount_usd_million": 1583.4,
+    "amount_usd": 1583397052,
+    "period": "2021"
+  },
+  {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "amount_usd_million": 0.63,
+    "amount_usd": 626399,
+    "period": "2021"
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "amount_usd_million": 8.46,
+    "amount_usd": 8463217,
+    "period": "2021"
+  },
+  {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "amount_usd_million": 0.42,
+    "amount_usd": 420844,
+    "period": "2021"
+  },
+  {
+    "country": "Korea, Rep.",
+    "country_code": "KOR",
+    "amount_usd_million": 136.75,
+    "amount_usd": 136751747,
+    "period": "2021"
+  },
+  {
+    "country": "Kuwait",
+    "country_code": "KWT",
+    "amount_usd_million": 89.19,
+    "amount_usd": 89194624,
+    "period": "2021"
+  },
+  {
+    "country": "Latvia",
+    "country_code": "LVA",
+    "amount_usd_million": 0.14,
+    "amount_usd": 135550,
+    "period": "2021"
+  },
+  {
+    "country": "Liechtenstein",
+    "country_code": "LIE",
+    "amount_usd_million": 0.0,
+    "amount_usd": 3948,
+    "period": "2021"
+  },
+  {
+    "country": "Lithuania",
+    "country_code": "LTU",
+    "amount_usd_million": 0.08,
+    "amount_usd": 83290,
+    "period": "2021"
+  },
+  {
+    "country": "Luxembourg",
+    "country_code": "LUX",
+    "amount_usd_million": 1.62,
+    "amount_usd": 1616942,
+    "period": "2021"
+  },
+  {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "amount_usd_million": 1684.72,
+    "amount_usd": 1684715000,
+    "period": "2021"
+  },
+  {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "amount_usd_million": 7.42,
+    "amount_usd": 7420696,
+    "period": "2021"
+  },
+  {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "amount_usd_million": 12.61,
+    "amount_usd": 12614518,
+    "period": "2021"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "country_code": "MNP",
+    "amount_usd_million": 0.24,
+    "amount_usd": 244759,
+    "period": "2021"
+  },
+  {
+    "country": "Norway",
+    "country_code": "NOR",
+    "amount_usd_million": 10.76,
+    "amount_usd": 10762812,
+    "period": "2021"
+  },
+  {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "amount_usd_million": 0.16,
+    "amount_usd": 162364,
+    "period": "2021"
+  },
+  {
+    "country": "Poland",
+    "country_code": "POL",
+    "amount_usd_million": 0.22,
+    "amount_usd": 217659,
+    "period": "2021"
+  },
+  {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "amount_usd_million": 20.28,
+    "amount_usd": 20284385,
+    "period": "2021"
+  },
+  {
+    "country": "Qatar",
+    "country_code": "QAT",
+    "amount_usd_million": 1098.59,
+    "amount_usd": 1098588723,
+    "period": "2021"
+  },
+  {
+    "country": "Romania",
+    "country_code": "ROU",
+    "amount_usd_million": 4.29,
+    "amount_usd": 4285407,
+    "period": "2021"
+  },
+  {
+    "country": "Russian Federation",
+    "country_code": "RUS",
+    "amount_usd_million": 0.51,
+    "amount_usd": 512880,
+    "period": "2021"
+  },
+  {
+    "country": "Saudi Arabia",
+    "country_code": "SAU",
+    "amount_usd_million": 1691.98,
+    "amount_usd": 1691976458,
+    "period": "2021"
+  },
+  {
+    "country": "Seychelles",
+    "country_code": "SYC",
+    "amount_usd_million": 0.51,
+    "amount_usd": 505642,
+    "period": "2021"
+  },
+  {
+    "country": "Slovak Republic",
+    "country_code": "SVK",
+    "amount_usd_million": 0.05,
+    "amount_usd": 53580,
+    "period": "2021"
+  },
+  {
+    "country": "Slovenia",
+    "country_code": "SVN",
+    "amount_usd_million": 0.11,
+    "amount_usd": 107195,
+    "period": "2021"
+  },
+  {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "amount_usd_million": 0.36,
+    "amount_usd": 364530,
+    "period": "2021"
+  },
+  {
+    "country": "Spain",
+    "country_code": "ESP",
+    "amount_usd_million": 13.53,
+    "amount_usd": 13528496,
+    "period": "2021"
+  },
+  {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "amount_usd_million": 0.83,
+    "amount_usd": 829372,
+    "period": "2021"
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "amount_usd_million": 5.1,
+    "amount_usd": 5098887,
+    "period": "2021"
+  },
+  {
+    "country": "Switzerland",
+    "country_code": "CHE",
+    "amount_usd_million": 4.61,
+    "amount_usd": 4606860,
+    "period": "2021"
+  },
+  {
+    "country": "Thailand",
+    "country_code": "THA",
+    "amount_usd_million": 29.92,
+    "amount_usd": 29920573,
+    "period": "2021"
+  },
+  {
+    "country": "Turkiye",
+    "country_code": "TUR",
+    "amount_usd_million": 5.53,
+    "amount_usd": 5528103,
+    "period": "2021"
+  },
+  {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "amount_usd_million": 105.82,
+    "amount_usd": 105817997,
+    "period": "2021"
+  },
+  {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "amount_usd_million": 224.54,
+    "amount_usd": 224537517,
+    "period": "2021"
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "amount_usd_million": 684.18,
+    "amount_usd": 684179858,
+    "period": "2021"
+  },
+  {
+    "country": "Viet Nam",
+    "country_code": "VNM",
+    "amount_usd_million": 5.66,
+    "amount_usd": 5655155,
+    "period": "2021"
+  }
+]
