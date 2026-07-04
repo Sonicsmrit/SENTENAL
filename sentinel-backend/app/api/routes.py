@@ -5,6 +5,7 @@ from app.models.schema import NewsArticle, DistressSignal, RemittanceRecord, Wel
 from app.services.classifier import classify_text
 from pydantic import BaseModel
 from app.scrapers.news import scrape_feeds, scrape_historical, scrape_reddit
+from app.services.anomaly import run_anomaly_detection, compute_welfare_scores
 
 
 router = APIRouter()
@@ -15,9 +16,19 @@ async def health_check():
 
 @router.get("/welfare-scores")
 async def get_welfare_scores(db: Session = Depends(get_db)):
+    from sqlalchemy import func
+    
+    subquery = db.query(
+        WelfareScore.country,
+        func.max(WelfareScore.computed_at).label("max_computed_at")
+    ).group_by(WelfareScore.country).subquery()
 
-    scores = db.query(WelfareScore).order_by(WelfareScore.computed_at.desc()).all()
-
+    scores = db.query(WelfareScore).join(
+        subquery,
+        (WelfareScore.country == subquery.c.country) &
+        (WelfareScore.computed_at == subquery.c.max_computed_at)
+    ).all()
+    
     return scores
 
 @router.get("/welfare-scores/{country}")
@@ -106,3 +117,13 @@ async def classify_message(request: ClassifyRequest, db: Session = Depends(get_d
 async def trigger_reddit_scrape(db: Session = Depends(get_db)):
     count = scrape_reddit(db)
     return {"status": "complete", "new_posts": count}
+
+@router.get("/anomaly/{country}")
+async def get_anomaly_detection(country: str, db: Session = Depends(get_db)):
+    result = run_anomaly_detection(db, country)
+    return result
+
+@router.post("/welfare-scores/compute")
+async def trigger_welfare_computation(db: Session = Depends(get_db)):
+    result = compute_welfare_scores(db)
+    return {"status": "complete", "scores": result}

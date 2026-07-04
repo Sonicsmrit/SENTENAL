@@ -7,6 +7,7 @@ from app.models.schema import NewsArticle
 import os
 import requests as req_lib
 import time
+from datetime import timedelta
 import random
 
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
@@ -18,6 +19,8 @@ NEWSAPI_QUERIES = [
     ("Saudi Arabia", "nepali worker saudi arabia OR migrant worker saudi"),
     ("South Korea", "nepali worker korea OR migrant worker korea"),
     ("Nepal", "foreign employment nepal OR remittance nepal worker"),
+    ("Kuwait", "nepali worker kuwait OR migrant worker kuwait"),
+    ("Bahrain", "nepali worker bahrain OR migrant worker bahrain"),
 ]
 
 def scrape_historical(db: Session):
@@ -28,11 +31,13 @@ def scrape_historical(db: Session):
     new_count = 0
     url = "https://newsapi.org/v2/everything"
 
+    from_date = (datetime.now() - timedelta(days=27)).strftime("%Y-%m-%d")
+
     for country, query in NEWSAPI_QUERIES:
         try:
             response = req_lib.get(url, params={
                 "q": query,
-                "from": "2026-05-30",
+                "from": from_date,
                 "sortBy": "publishedAt",
                 "language": "en",
                 "pageSize": 30,
@@ -110,6 +115,14 @@ FEEDS = {
         ("my_republica", "https://myrepublica.nagariknetwork.com/rss"),
         ("online_khabar", "https://english.onlinekhabar.com/feed"),
         ("setopati", "https://www.setopati.com/feed"),
+    ],
+    "Kuwait": [
+        ("kuwait_times", "https://www.kuwaittimes.com/feed/"),
+        ("arab_times", "https://www.arabtimesonline.com/feed/"),
+    ],
+    "Bahrain": [
+        ("gulf_daily_news", "https://www.gdnonline.com/rss"),
+        ("bahrain_news_agency", "https://www.bna.bh/en/rss.aspx"),
     ],
 }
 
